@@ -17,7 +17,7 @@ namespace Merchello.Plugin.Payments.SagePay.SagePayService
             _settings = settings;
         }
 
-        public IDirectPayment DirectPaymentRequest()
+        public new IDirectPayment DirectPaymentRequest()
         {
             IDirectPayment request = new DataObject();
             return request;

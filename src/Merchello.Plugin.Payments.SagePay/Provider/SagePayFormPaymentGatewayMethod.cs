@@ -16,8 +16,6 @@ namespace Merchello.Plugin.Payments.SagePay.Provider
     [PaymentGatewayMethod("SagePay IFrame Method Editors",
         "~/App_Plugins/Merchello.SagePay/",
         "~/App_Plugins/Merchello.SagePay/",
-        "~/App_Plugins/Merchello.SagePay/",
-        "~/App_Plugins/Merchello.SagePay/",
         "~/App_Plugins/Merchello.SagePay/")]
     public class SagePayFormPaymentGatewayMethod : SagePayPaymentGatewayMethodBase, ISagePayFormPaymentGatewayMethod       
     {
